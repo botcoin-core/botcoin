@@ -156,8 +156,10 @@ public:
         assert(genesis.hashMerkleRoot == uint256S(GENESIS_MERKLE_ROOT));
 
 
-        vSeeds.push_back(CDNSSeedData("botcoin.co", "ns1.botcoin.co"));
-        vSeeds.clear();
+        //vSeeds.push_back(CDNSSeedData("botcoin.co", "ns1.botcoin.co"));
+        vSeeds.push_back(CDNSSeedData("52.221.248.242", "52.221.248.242"));
+        vSeeds.push_back(CDNSSeedData("13.250.111.188", "13.250.111.188"));
+        //vSeeds.clear();
 
         // Botcoin addresses start with 'B'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
