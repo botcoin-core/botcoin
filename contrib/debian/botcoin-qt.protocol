@@ -1,0 +1,11 @@
+[Protocol]
+exec=botcoin-qt '%u'
+protocol=botcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

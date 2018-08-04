@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.dash.dashd.plist
+SystemD: botcoind.service
+Upstart: botcoind.conf
+OpenRC:  botcoind.openrc
+         botcoind.openrcconf
+CentOS:  botcoind.init
+OS X:    org.botcoin.botcoind.plist
 
 have been made available to assist packagers in creating node packages here.
 
