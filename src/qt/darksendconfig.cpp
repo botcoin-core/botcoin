@@ -36,10 +36,10 @@ void DarksendConfig::setModel(WalletModel *model)
 
 void DarksendConfig::clickBasic()
 {
-    configure(true, 1000, 2);
+    configure(true, 100000, 2);
 
     QString strAmount(BitcoinUnits::formatWithUnit(
-        model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
+        model->getOptionsModel()->getDisplayUnit(), 100000 * COIN));
     QMessageBox::information(this, tr("PrivateSend Configuration"),
         tr(
             "PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Botcoin's configuration screen."
@@ -51,10 +51,10 @@ void DarksendConfig::clickBasic()
 
 void DarksendConfig::clickHigh()
 {
-    configure(true, 1000, 8);
+    configure(true, 100000, 8);
 
     QString strAmount(BitcoinUnits::formatWithUnit(
-        model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
+        model->getOptionsModel()->getDisplayUnit(), 100000 * COIN));
     QMessageBox::information(this, tr("PrivateSend Configuration"),
         tr(
             "PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Botcoin's configuration screen."
