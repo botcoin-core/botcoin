@@ -157,9 +157,9 @@ public:
 
 
         //vSeeds.push_back(CDNSSeedData("botcoin.co", "ns1.botcoin.co"));
-        vSeeds.push_back(CDNSSeedData("52.221.253.246", "52.221.253.246"));
-        vSeeds.push_back(CDNSSeedData("18.136.126.49", "18.136.126.49"));
-        vSeeds.push_back(CDNSSeedData("54.169.16.32", "54.169.16.32"));
+        vSeeds.push_back(CDNSSeedData("54.169.209.116", "54.169.209.116"));
+        //vSeeds.push_back(CDNSSeedData("18.136.126.49", "18.136.126.49"));
+        //vSeeds.push_back(CDNSSeedData("54.169.16.32", "54.169.16.32"));
         //vSeeds.clear();
 
         // Botcoin addresses start with 'B'
