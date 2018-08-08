@@ -156,7 +156,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S(GENESIS_MERKLE_ROOT));
 
 
-        //vSeeds.push_back(CDNSSeedData("botcoin.co", "ns1.botcoin.co"));
+        vSeeds.push_back(CDNSSeedData("jincash.co", "ns01.jincash.co"));
         vSeeds.push_back(CDNSSeedData("54.169.209.116", "54.169.209.116"));
         //vSeeds.push_back(CDNSSeedData("18.136.126.49", "18.136.126.49"));
         //vSeeds.push_back(CDNSSeedData("54.169.16.32", "54.169.16.32"));
