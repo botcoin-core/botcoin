@@ -18,9 +18,9 @@
 #include "chainparamsseeds.h"
 
 #define GENESIS_MERKLE_ROOT "0x6bd7406d99defa5b6b37374d9b567c0f11767d4da70c4243318ad71da3b59232"
-#define MAINNET_GENESIS_HASH "0x00000e16d0d11bd9faec821172c081baf868931a644dab25db26a074d13fb0b1"
-#define MAINNET_GENESIS_NONCE 29146369UL
-#define MAINNET_GENESIS_TIMESTAMP 1533637800UL
+#define MAINNET_GENESIS_HASH "0x0000013cc800153f110b47560a99203dea11fc626690cadb1f6ff3009e1948b8"
+#define MAINNET_GENESIS_NONCE 28926487UL
+#define MAINNET_GENESIS_TIMESTAMP 1534050214UL
 
 #define TESTNET_GENESIS_HASH "0x00000f767aad5c20d30fa80aa61a49b6d0b3e66637e57d2e71658b02c770c849"
 #define TESTNET_GENESIS_NONCE 16408002UL
@@ -155,12 +155,12 @@ public:
         assert(consensus.hashGenesisBlock == uint256S(MAINNET_GENESIS_HASH));
         assert(genesis.hashMerkleRoot == uint256S(GENESIS_MERKLE_ROOT));
 
-
-        vSeeds.push_back(CDNSSeedData("jincash.co", "ns01.jincash.co"));
-        vSeeds.push_back(CDNSSeedData("54.169.209.116", "54.169.209.116"));
-        //vSeeds.push_back(CDNSSeedData("18.136.126.49", "18.136.126.49"));
+        vSeeds.clear();
+        //vSeeds.push_back(CDNSSeedData("jincash.co", "ns01.jincash.co"));
+        vSeeds.push_back(CDNSSeedData("54.255.178.19", "54.255.178.19"));
+        vSeeds.push_back(CDNSSeedData("52.221.220.96", "52.221.220.96"));
         //vSeeds.push_back(CDNSSeedData("54.169.16.32", "54.169.16.32"));
-        //vSeeds.clear();
+
 
         // Botcoin addresses start with 'B'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
